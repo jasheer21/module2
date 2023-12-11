@@ -112,3 +112,73 @@ body {
     font-family: 'Poiret One', sans-serif;
     font-weight: 700;
 }
+.main-5{
+    background: rgb(110, 110, 182);
+    width: auto;
+    height: 65vh;
+}
+.main-5 h2{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 700;
+}
+.main-5 p{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+}
+.main-5 input{
+    background: transparent;
+    border: none;
+    border-bottom: .5px solid;
+    padding: 10px;
+    height: auto;
+    width: 50%;
+    
+}
+.flex-column{
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+input::placeholder{
+    color: #f8f5f5;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 500;
+    transition: .6s ease-in-out;
+    padding: 10px;
+}
+
+.main-5 button{
+    
+    height: auto;
+    width: 15%;
+    background-color: rgb(203, 203, 235);
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 700;
+    margin-right: -230px;
+    margin-top: -40px;
+    transition: .5s  ease-in-out;
+}
+.main-5 button:hover{
+    background-color: greenyellow;
+    transform: translatey(-5px);
+}
+.last{
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
